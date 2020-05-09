@@ -1,0 +1,3 @@
+displayName = Symbiote Mod
+author = BrokenWyvern
+version = 0.1

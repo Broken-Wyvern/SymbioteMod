@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ork\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SymbioteMod\\SymbioteMod.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ork\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SymbioteMod\\SymbioteMod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ork\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SymbioteMod\\SymbioteMod.csproj",
+        "projectName": "SymbioteMod",
+        "projectPath": "C:\\Users\\Ork\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SymbioteMod\\SymbioteMod.csproj",
+        "packagesPath": "C:\\Users\\Ork\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ork\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\SymbioteMod\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ork\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
