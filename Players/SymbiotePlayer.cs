@@ -7,6 +7,10 @@ namespace SymbioteMod.Players
 {
     public sealed partial class SymbiotePlayer : ModPlayer
     {
+        public static SymbiotePlayer Get() => Get(Main.LocalPlayer);
+        public static SymbiotePlayer Get(Player player) => player.GetModPlayer<SymbiotePlayer>();
+
+
         public override void Initialize()
         {
             CurrentSymbiote = null;
@@ -63,9 +67,5 @@ namespace SymbioteMod.Players
             get => CurrentSymbiote.CurrentState;
             set => CurrentSymbiote.CurrentState = value;
         }
-
-        public static SymbiotePlayer Get(Player player) => player.GetModPlayer<SymbiotePlayer>();
-
-        public static SymbiotePlayer GetLocal() => Main.LocalPlayer.GetModPlayer<SymbiotePlayer>();
     }
 }
